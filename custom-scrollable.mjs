@@ -43,7 +43,7 @@ const template = document.body.appendChild( (() => {
   return template
 })() )
 
-customElements.define( "fixed-scrollable", class extends HTMLElement {
+customElements.define( "custom-scrollable", class extends HTMLElement {
   constructor(){
     super()
 
